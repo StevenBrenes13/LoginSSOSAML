@@ -1,0 +1,29 @@
+﻿@*@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Welcome</h1>
+    <p>Learn about <a href="https://learn.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+</div>*@
+
+@{
+    ViewData["Title"] = "SSO Login";
+}
+
+<h1>Single Sign-On (SSO) Login</h1>
+
+@if (User.Identity!.IsAuthenticated)
+{
+    <p>Welcome, @User.Identity.Name!</p>
+  //  <p>Email: @User.FindFirst(ClaimTypes.Email)?.Value</p>
+    <p>First Name: @User.FindFirst(ClaimTypes.GivenName)?.Value</p>
+  //  <p>Last Name: @User.FindFirst(ClaimTypes.Surname)?.Value</p>
+  //  <p>Office Location: @User.FindFirst("OfficeAddress")?.Value</p>
+   // <a asp-controller="Home" asp-action="Logout">Logout</a>
+}
+else
+{
+    <p>You are not authenticated. Please log in using SSO.</p>
+    <a asp-controller="Login" asp-action="Login">Login with SSO</a>
+}
