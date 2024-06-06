@@ -187,3 +187,5 @@ C:\Users\StevenBrenes\RiderProjects\LoginSSOSAML\LoginSSOSAML\obj\Debug\net8.0\r
 C:\Users\StevenBrenes\RiderProjects\LoginSSOSAML\LoginSSOSAML\obj\Debug\net8.0\LoginSSOSAML.pdb
 C:\Users\StevenBrenes\RiderProjects\LoginSSOSAML\LoginSSOSAML\obj\Debug\net8.0\LoginSSOSAML.genruntimeconfig.cache
 C:\Users\StevenBrenes\RiderProjects\LoginSSOSAML\LoginSSOSAML\obj\Debug\net8.0\ref\LoginSSOSAML.dll
+C:\Users\StevenBrenes\RiderProjects\LoginSSOSAML\LoginSSOSAML\obj\Debug\net8.0\LoginSSOSAML.sourcelink.json
+C:\Users\StevenBrenes\RiderProjects\LoginSSOSAML\LoginSSOSAML\bin\Debug\net8.0\aws-beanstalk-tools-defaults.json
